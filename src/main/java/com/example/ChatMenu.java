@@ -11,7 +11,7 @@ public class ChatMenu {
     public static void main(String[] args){
         Scanner ler = new Scanner(System.in);
         while(true){
-            System.out.println("Select the type of user: ");
+            System.out.println("\n\nSelect the type of user: ");
             System.out.println("1 - Producer");
             System.out.println("2 - Consumer");
 

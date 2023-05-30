@@ -39,7 +39,7 @@ public class ConsApplication{
 
 	@Bean
 	SimpleMessageListenerContainer container(ConnectionFactory connectionFactory,
-											 MessageListenerAdapter listenerAdapter) {
+                                            MessageListenerAdapter listenerAdapter) {
 		SimpleMessageListenerContainer container = new SimpleMessageListenerContainer();
 		container.setConnectionFactory(connectionFactory);
 		container.setQueueNames(queueName);
@@ -56,7 +56,7 @@ public class ConsApplication{
 		Scanner ler = new Scanner(System.in);
 		String routingKey;
 		while(true){
-            System.out.println("Select a topic of interest:");
+            System.out.println("\nSelect a topic of interest:");
             System.out.println("1 - Entertainment");
             System.out.println("2 - News");
             System.out.println("0 - Console log");
@@ -64,7 +64,7 @@ public class ConsApplication{
 
             if(routingKey.equals("1")){
                 while(true){
-                    System.out.println("Select a subtopic:");
+                    System.out.println("\nSelect a subtopic:");
                     System.out.println("1 - Sports");
                     System.out.println("2 - Games");
 					System.out.println("3 - all of the above");
@@ -88,7 +88,7 @@ public class ConsApplication{
             } 
             else if(routingKey.equals("2")) {
                 while(true){
-                    System.out.println("Escolha um Subtopico:");
+                    System.out.println("\nEscolha um Subtopico:");
                     System.out.println("1 - Local News");
                     System.out.println("2 - Global News");
 					System.out.println("3 - all of the above");

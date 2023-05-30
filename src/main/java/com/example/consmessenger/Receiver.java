@@ -6,6 +6,6 @@ import org.springframework.stereotype.Component;
 public class Receiver {
 
     public void receiveMessage(String message) {  
-        System.out.println("\nReceived " + message);
+        System.out.println(message);
     }
 }
