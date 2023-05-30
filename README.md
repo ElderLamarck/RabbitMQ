@@ -9,4 +9,4 @@ $ cd RabbitMQ-chat.git
 ```
 
 ## Como utilizar o programa:
-Ao rodar o arquivo ChatMenu.java você terá a opção de escolher se quer ser um consumidor ou um produtor. Essa escolha fará com que a forma em que o programa é utilizado mude, consumidores apenas recebem mensagens criadas pelos produtores, além disso, os consumidores apenas recebem mensagens dos topicos escolhidos, ou seja, um consumidor que escolher notícias não receberá mensagens de entreterimento. Esse programa utiliza SpringBoot e o RabbitMQ.
+Ao rodar o arquivo ChatMenu.java você terá a opção de escolher se quer ser um consumidor ou um produtor. Essa escolha fará com que a forma em que o programa é utilizado mude, consumidores apenas recebem mensagens criadas pelos produtores, além disso, os consumidores apenas recebem mensagens dos tópicos escolhidos, ou seja, um consumidor que escolher notícias não receberá mensagens de entretenimento.
